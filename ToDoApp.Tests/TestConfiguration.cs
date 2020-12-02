@@ -11,7 +11,7 @@ namespace ToDoApp.Tests
         private const string remoteUserName = "your.username";
         private const string remoteAccessKey = "your.accesskey";
         private string remoteTestUrl = $"https://{remoteUserName}:{remoteAccessKey}@hub.lambdatest.com/wd/hub";
-        private const bool isRemoteTestingSession = true;
+        private const bool isRemoteTestingSession = false;
         private IWebDriver driver;
         public TestConfiguration(TestBrowser browser)
         {
